@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baha_Post", "Baha_Post\Baha_Post.csproj", "{64E761B5-4ED3-4AC4-B05D-189A6C39FE2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E761B5-4ED3-4AC4-B05D-189A6C39FE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E761B5-4ED3-4AC4-B05D-189A6C39FE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E761B5-4ED3-4AC4-B05D-189A6C39FE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E761B5-4ED3-4AC4-B05D-189A6C39FE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D2311AF-D369-4336-A216-866C9027EA4E}
+	EndGlobalSection
+EndGlobal

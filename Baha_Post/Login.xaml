@@ -1,0 +1,28 @@
+﻿<Page x:Class="Baha_Post.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Baha_Post"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <Label Content="帳號" HorizontalAlignment="Left" Margin="197,111,0,0" VerticalAlignment="Top" FontSize="36" Foreground="#FFFF6C18">
+            <Label.Effect>
+                <BlurEffect Radius="15"/>
+            </Label.Effect>
+        </Label>
+        <Label Content="密碼" HorizontalAlignment="Left" Margin="197,0,0,179" VerticalAlignment="Bottom" FontSize="36" Foreground="#FFFF6C18">
+            <Label.Effect>
+                <BlurEffect Radius="15"/>
+            </Label.Effect>
+        </Label>
+        <Label Content="帳號" HorizontalAlignment="Left" Margin="197,111,0,0" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
+        <Label Content="密碼" HorizontalAlignment="Left" Margin="197,0,0,179" VerticalAlignment="Bottom" FontSize="36" Foreground="White"/>
+        <TextBox x:Name="Account" Margin="0,117,242,0" TextWrapping="Wrap" FontSize="24" BorderBrush="#FFFF9050" Background="#33FF8723" Foreground="White" SelectionBrush="#FF0068FF" Height="46" VerticalAlignment="Top" HorizontalAlignment="Right" Width="257" VerticalContentAlignment="Center" TabIndex="0" Panel.ZIndex="1"/>
+        <Button x:Name="LGN" Content="LOGIN" HorizontalAlignment="Left" Margin="197,0,0,85" VerticalAlignment="Bottom" Width="361" Height="63" FontSize="36" Background="#333CD3FF" BorderBrush="#FF23A5FF" Foreground="White" Click="LGN_Click" TabIndex="2"/>
+        <PasswordBox x:Name="Password" Margin="0,0,242,183" FontSize="24" BorderBrush="#FFFF9050" Background="#33FF8723" Foreground="White" SelectionBrush="#FF0068FF" HorizontalAlignment="Right" Width="257" Height="46" VerticalAlignment="Bottom" VerticalContentAlignment="Center" TabIndex="1"/>
+    </Grid>
+</Page>
